@@ -4,20 +4,15 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
 }
 html, body{
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
   line-height: 1.5;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   overflow-x: hidden;
-  top:0;
-  left: 0;
 }
 a{
-  text-decoration: none;
   color: rgba(34, 54, 69, 0.7) !important;
   font-weight: 500;
 }
@@ -68,7 +63,7 @@ a:hover{
   font-size: 1.2rem;
   margin-top: 1px;
 }
-.navbar-nav .btn:hover, #basic-addon2{
+.navbar-nav .btn:hover, #basic-addon2, .send-it button{
   background-color: #e74c3c;
 }
 
@@ -78,10 +73,6 @@ a:hover{
   height: 100vh;
   overflow: hidden;
 }
-.carousel-item h3{
-  color: white;
-  font-size: 1.5rem;
-}
 .carousel-item p{
   padding: 3px;
   border: 0.5px solid white;
@@ -89,83 +80,26 @@ a:hover{
   font-weight: 800;
   line-height: 1.4;
 }
-#best{
-  margin-top: 7.5vh;
-  font-weight: 700;
-  font-size: 3rem;
-}
 #best span{
   color:#e74c3c;
   font-weight: 800;
 }
-#descr{
-  font-size: 1.3rem;
-  width:50%;
-  margin:auto;
-  padding-bottom: 5vh;
-}
-.abimg img{
-  min-width: 100%;
-  object-fit: cover;
-}
 .dots{
-  background-image: url(../images/557.jpg);
   height: 70vh;
   background-size: contain;
-}
-#hello{
-  font-size: 2.5rem;
-  color: #243659;
-  padding-bottom: 3vh;
-}
-#wesell{
-  font-size: 1.5rem;
-  color: #243659;
-  width: 50%;
-  margin: auto;
 }
 .card{
   width: 20rem;
 }
 .contact-us{
-  background-color: lightblue;
   color:#243659;
-  overflow: hidden;
 }
 .conne{
   font-size: 5rem;
   color:#243659;
 }
-.look{
-  font-size: 2rem;
-}
 .icv{
   color: #e74c3c;
-}
-.send-it button{
-  background-color: #e74c3c;
-  border: none;
-  font-size:1.2rem;
-}
-
-.circle{
-  height: 70px;
-  width: 70px;
-  background-color: lightgrey;
-  padding: 12px;
-  border-radius: 50%;
-  font-size: 30px;
-  display: inline-block;
-}
-.connec{
-  font-size: 5rem;
-  color:#243659;
-  font-weight: 700;
-}
-
-.gallery img{
-  max-width: 100%;
-  padding: 15px;
 }
 
  @media screen and (max-width: 700px){
