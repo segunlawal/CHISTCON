@@ -16,9 +16,6 @@ html, body{
   top:0;
   left: 0;
 }
-.header{
-  height: auto;
-}
 a{
   text-decoration: none;
   color: rgba(34, 54, 69, 0.7) !important;
@@ -26,18 +23,6 @@ a{
 }
 a:hover{
   color: #e74c3c !important;
-}
-ul{
-  list-style-type: none;
-}
-.navbar{
-  background: white;
-  padding: 3rem 2rem;
-}
-.navbar .navbar-brand a{
-  padding: 1rem 0;
-  display: block;
-  text-decoration: none;
 }
 .navbar-brand{
   font-family: 'Pacifico';
@@ -76,25 +61,14 @@ ul{
   font-size: 1.4rem;
   position: relative;
 }
-.navbar-expand-lg .navbar-nav .nav-link:hover{
-  border-top: 1px solid #e74c3c !important;
-}
-.navbar-expand-lg .navbar-nav .nav-link:active{
-  border-top: 4px solid #e74c3c !important;
-  color: #e74c3c !important;
-}
-.navbar-nav button{
-  padding: 1.2rem 0;
-}
 .navbar-nav .btn{
   background-color: #e74c3c !important;
   color: white;
-  border-radius: 0;
   padding: 1rem 1.5rem;
   font-size: 1.2rem;
   margin-top: 1px;
 }
-.navbar-nav .btn:hover{
+.navbar-nav .btn:hover, #basic-addon2{
   background-color: #e74c3c;
 }
 
@@ -114,23 +88,6 @@ ul{
   font-size: 3.5rem;
   font-weight: 800;
   line-height: 1.4;
-  -webkit-text-stroke-width: 0.1px;
-  -webkit-text-stroke-color: black;
-
-}
-#basic-addon2{
-  background-color:#e74c3c;
-  color:white;
-  border: none;
-}
-.carousel-caption{
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10vh;
-  margin-top: auto;
-}
-.input-group{
-  margin-top: 5vh;
 }
 #best{
   margin-top: 7.5vh;
@@ -148,7 +105,6 @@ ul{
   padding-bottom: 5vh;
 }
 .abimg img{
-  height: 70vh;
   min-width: 100%;
   object-fit: cover;
 }
@@ -168,32 +124,8 @@ ul{
   width: 50%;
   margin: auto;
 }
-
-.cards{
-  width:100vw;
-  min-height: 100vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
 .card{
-  overflow: hidden;
   width: 20rem;
-}
-.btn-bg{
-  border-color: orange;
-  color:white;
-}
-.btn-bg:hover{
-  color: white;
-}
-.btn-bg-focus{
-  box-shadow: 0 0 0 0.25rem blue;
-}
-
-.our-services{
-  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/warehouse.jpg);
 }
 .contact-us{
   background-color: lightblue;
@@ -213,36 +145,17 @@ ul{
 .send-it button{
   background-color: #e74c3c;
   border: none;
-  width: 150px;
   font-size:1.2rem;
-  color:white;
-  margin-bottom: 2vh;
-}
-.contact-us input, .contact-us textarea{
-  margin-bottom: 5vh;
-  resize:none;
 }
 
-.card{
-  border:none;
-  outline:none;
-  -webkit-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
-  -moz-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
-  box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
-}
-.card p{
-  color: gray;
-}
 .circle{
   height: 70px;
   width: 70px;
   background-color: lightgrey;
-  color: black;
   padding: 12px;
-  font-size: 30px;
   border-radius: 50%;
+  font-size: 30px;
   display: inline-block;
-  margin-bottom: 20px;
 }
 .connec{
   font-size: 5rem;
@@ -250,27 +163,14 @@ ul{
   font-weight: 700;
 }
 
-.gallery{
-  background-color: #dbddf1;
-  padding: 80px 0;
-}
 .gallery img{
   max-width: 100%;
-  background-color: #ffff;
   padding: 15px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.3);
 }
 
  @media screen and (max-width: 700px){
    .carousel-item p{
-     padding: 3px;
-     border: 0.3px solid white;
      font-size: 2.3rem;
-     font-weight: 800;
-     line-height: 1.4;
-     -webkit-text-stroke-width: 0.1px;
-     -webkit-text-stroke-color: black;
-
    }
  }
  @media screen and (max-width: 442px){
