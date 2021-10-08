@@ -244,11 +244,6 @@ ul{
   display: inline-block;
   margin-bottom: 20px;
 }
-.card:hover .circle{
-  background-color: black;
-  color: white;
-  transition: 0.2s;
-}
 .connec{
   font-size: 5rem;
   color:#243659;
