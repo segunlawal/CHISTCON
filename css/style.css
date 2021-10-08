@@ -4,7 +4,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-
 }
 html, body{
   font-family: 'Poppins', sans-serif;
@@ -14,7 +13,6 @@ html, body{
 }
 a{
   color: rgba(34, 54, 69, 0.7) !important;
-  font-weight: 500;
 }
 a:hover{
   color: #e74c3c !important;
@@ -29,28 +27,6 @@ a:hover{
   font-size: 1.6rem !important;
   color: #e74c3c !important;
 }
-.navbar-toggler{
-  background: #e74c3c !important;
-  border: none;
-  padding: 10px 6px;
-  outline:none;
-}
-.navbar-toggler span{
-  display: block;
-  width: 22px;
-  height: 3px;
-  border: 1px;
-  background: #ffff;
-}
-.navbar-toggler span + span{
-  margin-top: 4px;
-  width: 18px;
-  margin-left: 4px;
-}
-.navbar-toggler span + span + span{
-  width: 10px;
-  margin-left: 10px;
-}
 .navbar-expand-lg .navbar-nav .nav-link{
   padding: 2rem 1.2rem;
   font-size: 1.4rem;
@@ -58,31 +34,18 @@ a:hover{
 }
 .navbar-nav .btn{
   background-color: #e74c3c !important;
-  color: white;
-  padding: 1rem 1.5rem;
   font-size: 1.2rem;
-  margin-top: 1px;
 }
 .navbar-nav .btn:hover, #basic-addon2, .send-it button{
   background-color: #e74c3c;
 }
-
 .carousel-item img {
   object-fit: cover;
   object-position: center;
   height: 100vh;
-  overflow: hidden;
 }
-.carousel-item p{
-  padding: 3px;
-  border: 0.5px solid white;
-  font-size: 3.5rem;
-  font-weight: 800;
-  line-height: 1.4;
-}
-#best span{
+#best span, .icv{
   color:#e74c3c;
-  font-weight: 800;
 }
 .dots{
   height: 70vh;
@@ -91,24 +54,6 @@ a:hover{
 .card{
   width: 20rem;
 }
-.contact-us{
+.conne, .contact-us{
   color:#243659;
 }
-.conne{
-  font-size: 5rem;
-  color:#243659;
-}
-.icv{
-  color: #e74c3c;
-}
-
- @media screen and (max-width: 700px){
-   .carousel-item p{
-     font-size: 2.3rem;
-   }
- }
- @media screen and (max-width: 442px){
-   #wesell{
-     display: none;
-   }
- }
